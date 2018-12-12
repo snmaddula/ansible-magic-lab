@@ -10,6 +10,10 @@ Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/
 cmd "/C .\gitbit.exe"
 rm gitbin.exe
 
+Invoke-WebRequest -Uri https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe -OutFile vbox.exe
+cmd "/C .\vbox.exe"
+rm vbox.exe
+
 Invoke-WebRequest -Uri https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.msi -OutFile vag.msi
 cmd "/C .\vag.msi"
 rm vag.msi
