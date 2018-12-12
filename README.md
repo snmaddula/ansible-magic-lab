@@ -43,4 +43,12 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
     cmd "/c vagrant up"
     
     
-    
+Done that ?
+Now you'll be able to access your Ansible Tower (AWX) web interface using the Ip of the Vagrant machine.
+
+> Open up a browser and provide the IP `<IP in Vagrantfile>` and hit Enter. You'll get to see a page like below.
+[]()
+
+#### CREDENTIALS for AWX Login
+##### username : admin
+##### password : password
