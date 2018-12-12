@@ -50,5 +50,5 @@ Now you'll be able to access your Ansible Tower (AWX) web interface using the Ip
 []()
 
 #### CREDENTIALS for AWX Login
-##### username : admin
-##### password : password
+    username : admin
+    password : password
