@@ -1,5 +1,5 @@
 # Ansible & Ansible Tower (AWX) Lab Setup
-Magic scripts to setup Ansible <b>learning lab</b> environment with Ansible Tower (AWX)
+Magic scripts to setup Ansible <b>Learner's Lab</b> environment with Ansible Tower (AWX)
 
 ### Launch Sequence
 Open Powershell in 'Administrator' mode and execute the below commands in a sequence.
