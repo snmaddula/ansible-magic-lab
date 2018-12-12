@@ -13,10 +13,15 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
 ### [3] Bypass SSL
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
-### [5] Setup Git + SSH Client
+### [4] Setup Git + SSH Client
     Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-64-bit.exe -OutFile gitbin.exe
     cmd "/C .\gitbit.exe"
     rm gitbin.exe
+
+### [5] Setup VirtualBox
+    Invoke-WebRequest -Uri https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe -OutFile vbox.exe
+    cmd "/C .\vbox.exe"
+    rm vbox.exe
 
 ### [6] Setup Vagrant
     Invoke-WebRequest -Uri https://releases.hashicorp.com/vagrant/2.2.2/vagrant_2.2.2_x86_64.msi -OutFile vag.msi
@@ -28,7 +33,5 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
     cd ansible-magic-lab
     cmd "/c vagrant up"
     
-
-
     
     
