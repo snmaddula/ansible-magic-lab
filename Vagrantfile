@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   
   config.vm.provision "shell", inline: <<-SHELL
     git clone https://github.com/snmaddula/ansible-magic-lab.git magic-lab
-	cd magic-lab && chmod +x docker-compose
-	./docker-compose up -d
+    cd magic-lab && chmod +x docker-compose
+    ./docker-compose up -d
   SHELL
 end
