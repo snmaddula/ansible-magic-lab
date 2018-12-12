@@ -15,7 +15,8 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
 
 ### [4] Setup Git + SSH Client
     Invoke-WebRequest -Uri https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-64-bit.exe -OutFile gitbin.exe
-    cmd "/C .\gitbit.exe"
+    cmd "/C .\gitbit.exe /SP- /SILENT /NOCANCEL /NORESTART /SAVEINF=silent_git"
+    $env:Path="$env:Path;C:\Program Files\Git\bin\;C:\Program Files\Git\usr\bin\;"
     rm gitbin.exe
 
 ### [5] Setup VirtualBox
