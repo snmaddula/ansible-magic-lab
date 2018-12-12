@@ -21,7 +21,7 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
 
 ### [5] Setup VirtualBox
     Invoke-WebRequest -Uri https://download.virtualbox.org/virtualbox/5.2.22/VirtualBox-5.2.22-126460-Win.exe -OutFile vbox.exe
-    cmd "/C .\vbox.exe"
+    cmd "/C .\vbox.exe -msiparams ADDLOCAL=VBoxApplication,VBoxUSB NETWORKTYPE=NDIS6 --silent"
     rm vbox.exe
 
 ### [6] Setup Vagrant
