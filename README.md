@@ -1,4 +1,4 @@
-# Ansible & Ansible Tower (AWX) Magic Lab Setup
+# Ansible & Ansible Tower (AWX) Lab Setup
 Magic scripts to setup an Ansible lab environment with Ansible Tower (AWX)
 
 #### Launch Sequence
