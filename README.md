@@ -38,7 +38,11 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
     cmd "/C .\vag.msi"
     rm vag.msi
     
+###### On Successful installation of Vagrant, the machine should reboot.
+###### Once, the machine is up, Open Powershell in 'Administrator' mode and follow the below steps. 
+
 ### [8] Ansible & AWX Lab Setup
+    cd ~/__lab__
     cmd "/C git clone https://github.com/snmaddula/ansible-magic-lab.git"
     cd ansible-magic-lab
     cmd "/c vagrant up"
