@@ -6,11 +6,12 @@ Vagrant.configure("2") do |config|
   
   config.vm.provider "virtualbox" do |vb|
     vb.memory = "4096"
+    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    vb.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
   end
   
   config.vm.provision "shell", inline: <<-SHELL
-    git clone https://github.com/snmaddula/ansible-magic-lab.git magic-lab
-    cd magic-lab && chmod +x docker-compose
-    ./docker-compose up -d
+    cd /vagrant && chmod +x docker-compose && ./docker-compose up -d
+    ufw disable
   SHELL
 end
