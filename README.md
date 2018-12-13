@@ -8,7 +8,8 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
     cd ~
 
 ### [2] Create a LAB directory
-    mkdir __lab__ && cd __lab__
+    mkdir __lab__
+    cd __lab__
 
 ### [3] Bypass SSL
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
