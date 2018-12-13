@@ -4,6 +4,9 @@ Magic scripts to setup <b>Ansible & Ansible Tower (AWX) Learner's Lab</b> enviro
 ### Launch Sequence
 Open Powershell in 'Administrator' mode and execute the below commands in a sequence.
 
+### [1] Disable Hyper-V
+    Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
+    
 ### [1] Switch to HOME directory 
     cd ~
 
@@ -26,7 +29,7 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
     rm vbox.exe
     
 ### [6] Disable Hyper-V
-    Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All
+    Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
     
 ###### At this stage, the machine will reboot! 
 ###### Once, the machine is up, Open Powershell in 'Administrator' mode and follow the below steps.
