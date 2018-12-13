@@ -7,12 +7,8 @@ Open Powershell in 'Administrator' mode and execute the below commands in a sequ
 ### [1] Disable Hyper-V
     Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All -NoRestart
     
-### [1] Switch to HOME directory 
-    cd ~
-
-### [2] Create a LAB directory
-    mkdir __lab__
-    cd __lab__
+### [2] Setup Lab directory 
+    New-Item -ItemType Directory -Path ~/__LAB__ -Force; cd ~/__LAB__
 
 ### [3] Bypass SSL
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
