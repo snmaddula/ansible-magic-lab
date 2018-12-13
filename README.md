@@ -26,8 +26,9 @@ Done that ?
 Now you'll be able to access your Ansible Tower (AWX) web interface using the Ip of the Vagrant machine.
 
 > Open up a browser and provide the IP `<IP in AWX Machine>` and hit Enter. You'll get to see a page like below.
-[]()
+![AWX Web Interface](/assets/AWX_LOGIN.PNG)
 
 #### CREDENTIALS for AWX Login
     username : admin
     password : password
+
