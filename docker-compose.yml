@@ -1,7 +1,7 @@
 version: '3'
 services:
   postgres:
-    image: "snmaddula/postgres:latest"
+    image: "snmaddula/postgres"
     environment:
       POSTGRES_USER: awx
       POSTGRES_PASSWORD: awxpass
