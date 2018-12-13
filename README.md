@@ -3,8 +3,8 @@ Magic scripts to setup <b>Ansible & Ansible Tower (AWX) Learner's Lab</b> enviro
 
 ### Download the Scripts
 
-![AnsibleMagicLab_Pre_Reboot.ps1]()
-![AnsibleMagicLab_Post_Reboot.ps1]()
+[AnsibleMagicLab_Pre_Reboot.ps1](https://snmaddula.github.io/pf/AnsibleMagicLab_Pre_Reboot.ps1)
+[AnsibleMagicLab_Post_Reboot.ps1](https://snmaddula.github.io/pf/AnsibleMagicLab_Post_Reboot.ps1)
 
 
 ### Launch Sequence
