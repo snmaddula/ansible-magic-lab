@@ -14,7 +14,7 @@ Magic scripts to setup <b>Ansible & Ansible Tower (AWX) Learner's Lab</b> enviro
 ### 1. Pre-Reboot Setup
     powershell.exe -ExecutionPolicy Bypass -File AnsibleMagicLab_Pre_Reboot.ps1
 
-###### On Successful installation of Vagrant, the machine should reboot.
+<p style="color: red"><b> On Successful installation of Vagrant, the machine should reboot.</b></p>
 
 <b>Once the machine is up, Open Command Prompt in 'Administrator' mode and follow the below steps. </b>
 
