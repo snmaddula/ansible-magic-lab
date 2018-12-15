@@ -9,7 +9,7 @@ Magic scripts to setup <b>Ansible & Ansible Tower (AWX) Learner's Lab</b> enviro
 
 
 ### Launch Sequence
-Open Command Prompt in 'Administrator' mode and execute the below commands in a sequence.
+<b>Open Command Prompt in 'Administrator' mode and execute the below commands in a sequence.</b>
 
 ### 1. Pre-Reboot Setup
     powershell.exe -ExecutionPolicy Bypass -File AnsibleMagicLab_Pre_Reboot.ps1
