@@ -8,10 +8,10 @@ Vagrant.configure("2") do |config|
   config.vm.box_check_update = true
   config.vm.network "private_network", type: "dhcp"
   
-  config.vm.provider "virtualbox" do |vb|
-    
-	vb.memory = "2048"
-    vb.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+  config.vm.provider "virtualbox" do |v|
+    v.gui = true
+    v.memory = "2048"
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
 	
   end
   
